@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SplashScreen: View {
-    @State var coordinator : MainCoordinator
+    @StateObject var coordinator : MainCoordinator
     
     var body: some View {
         Text("SwiftUI Workshop")
